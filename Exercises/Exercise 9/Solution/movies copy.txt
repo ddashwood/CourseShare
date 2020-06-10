@@ -1,0 +1,5 @@
+jaws,steven spielberg,1975
+star wars,George Lucas,1977
+vanilla sky,cameron crowe,1986
+the mission,rolan joffe, 1986
+bridget jones diary,sharon mcGuire,2001

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f6efe9ef-21bf-4998-8c7b-4db600c961fd}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Exercise 5\Solution\part3.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Exercise 10\Solution\movie.py" />
+    <Compile Include="Exercise 10\Solution\movie_library.py" />
+    <Compile Include="Exercise 10\Solution\part2.py" />
+    <Compile Include="Exercise 10\Starter\movie.py" />
+    <Compile Include="Exercise 10\Starter\movie_library.py" />
+    <Compile Include="Exercise 10\Starter\test_movie_library.py" />
+    <Compile Include="Exercise 3\Solution\Part1.py" />
+    <Compile Include="Exercise 3\Solution\Part2.py" />
+    <Compile Include="Exercise 4\Solution\part1.py" />
+    <Compile Include="Exercise 4\Solution\part2.py" />
+    <Compile Include="Exercise 4\Solution\part3.py" />
+    <Compile Include="Exercise 4\Solution\part4.py" />
+    <Compile Include="Exercise 5\Solution\part1.py" />
+    <Compile Include="Exercise 5\Solution\part2.py" />
+    <Compile Include="Exercise 5\Solution\part3.py" />
+    <Compile Include="Exercise 6\Solution\MovieArray.py" />
+    <Compile Include="Exercise 6\Solution\MovieDictionary.py" />
+    <Compile Include="Exercise 6\Solution\MovieLoop.py" />
+    <Compile Include="Exercise 6\Solution\MovieSearch.py" />
+    <Compile Include="Exercise 6\Starter\MovieArray.py" />
+    <Compile Include="Exercise 6\Starter\MovieDictionary.py" />
+    <Compile Include="Exercise 6\Starter\MovieLoop.py" />
+    <Compile Include="Exercise 6\Starter\MovieSearch.py" />
+    <Compile Include="Exercise 7\Solution\days.py" />
+    <Compile Include="Exercise 7\Solution\movielib.py" />
+    <Compile Include="Exercise 7\Solution\moviesearch.py" />
+    <Compile Include="Exercise 7\Starter\days.py" />
+    <Compile Include="Exercise 7\Starter\movielib.py" />
+    <Compile Include="Exercise 7\Starter\moviesearch.py" />
+    <Compile Include="Exercise 8\Solution\movie.py" />
+    <Compile Include="Exercise 8\Solution\scope.py" />
+    <Compile Include="Exercise 8\Solution\showmovies.py" />
+    <Compile Include="Exercise 8\Starter\movie.py" />
+    <Compile Include="Exercise 8\Starter\movies.py" />
+    <Compile Include="Exercise 8\Starter\scope.py" />
+    <Compile Include="Exercise 8\Starter\showmovies.py" />
+    <Compile Include="Exercise 9\Solution\movie.py" />
+    <Compile Include="Exercise 9\Solution\part1.py" />
+    <Compile Include="Exercise 9\Solution\part2.py" />
+    <Compile Include="Exercise 9\Solution\part3.py" />
+    <Compile Include="Exercise 9\Solution\part4.py" />
+    <Compile Include="Exercise 9\Starter\movie.py" />
+    <Compile Include="Exercise 9\Starter\movieprocess.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Exercise 9\Solution\movies copy.txt" />
+    <Content Include="Exercise 9\Solution\movies.txt" />
+    <Content Include="Exercise 9\Solution\movies_out.txt" />
+    <Content Include="Exercise 9\Starter\movies copy.txt" />
+    <Content Include="Exercise 9\Starter\movies.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Exercise 10\" />
+    <Folder Include="Exercise 10\Solution" />
+    <Folder Include="Exercise 10\Starter" />
+    <Folder Include="Exercise 3\" />
+    <Folder Include="Exercise 3\Starter\" />
+    <Folder Include="Exercise 3\Solution" />
+    <Folder Include="Exercise 4\" />
+    <Folder Include="Exercise 4\Starter\" />
+    <Folder Include="Exercise 4\Solution" />
+    <Folder Include="Exercise 5\" />
+    <Folder Include="Exercise 5\Starter\" />
+    <Folder Include="Exercise 5\Solution" />
+    <Folder Include="Exercise 6\" />
+    <Folder Include="Exercise 6\Solution" />
+    <Folder Include="Exercise 6\Starter" />
+    <Folder Include="Exercise 7\" />
+    <Folder Include="Exercise 7\Solution" />
+    <Folder Include="Exercise 7\Starter" />
+    <Folder Include="Exercise 8\" />
+    <Folder Include="Exercise 8\Solution" />
+    <Folder Include="Exercise 8\Starter" />
+    <Folder Include="Exercise 9\" />
+    <Folder Include="Exercise 9\Solution" />
+    <Folder Include="Exercise 9\Starter" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

@@ -1,0 +1,7 @@
+title = input("Movie Title:")
+director = input("Director:")
+year = int(input("Year:"))
+duration = int(input("Duration (mins):"))
+cert = input("Cert:")
+print(title, " was directed by ", director, " in ", year)
+print("Its duration is", duration, " mins and is a", cert, "certificate")
